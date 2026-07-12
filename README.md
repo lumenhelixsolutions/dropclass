@@ -1,7 +1,11 @@
 # dropclass
 
 <p align="center">
-  <img src="docs/assets/logo.svg" alt="dropclass logo" width="160">
+  <img src="docs/assets/hero.svg" alt="dropclass header" width="100%">
+</p>
+
+<p align="center">
+  <img src="docs/assets/logo.svg" alt="dropclass logo" width="120">
 </p>
 
 <h3 align="center">Syllabus to talent.</h3>
@@ -9,9 +13,9 @@
 <p align="center">Agent formation engine that turns a MOOC syllabus into a verified, transferable domain skill.</p>
 
 <p align="center">
-  <a href="https://lumenhelixsolutions.github.io/dropclass/">Launch Page</a>
+  <a href="https://lumenhelixlab.github.io/dropclass/">Launch Page</a>
   <span> · </span>
-  <a href="https://github.com/lumenhelixsolutions/dropclass">GitHub</a>
+  <a href="https://github.com/lumenhelixlab/dropclass">GitHub</a>
   <span> · </span>
   <a href="https://lumenhelix.com">LumenHelix</a>
 </p>
@@ -31,7 +35,7 @@ DropClass is the LumenHelix agent formation engine. It discovers free online cou
 ### macOS / Linux
 
 ```bash
-git clone https://github.com/lumenhelixsolutions/dropclass.git
+git clone https://github.com/lumenhelixlab/dropclass.git
 cd dropclass
 python3 -m venv .venv
 source .venv/bin/activate
@@ -42,7 +46,7 @@ pytest
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/lumenhelixsolutions/dropclass.git
+git clone https://github.com/lumenhelixlab/dropclass.git
 Set-Location dropclass
 python -m venv .venv
 .venv\Scripts\activate
@@ -53,7 +57,7 @@ pytest
 ### Windows (Git Bash / WSL)
 
 ```bash
-git clone https://github.com/lumenhelixsolutions/dropclass.git
+git clone https://github.com/lumenhelixlab/dropclass.git
 cd dropclass
 python3 -m venv .venv
 source .venv/bin/activate
