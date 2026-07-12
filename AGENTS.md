@@ -15,7 +15,8 @@ DropClass explores whether autonomous agents can acquire **talents** (domain jud
 | Doc | Path |
 |-----|------|
 | Vocabulary | `CONCEPTS.md` |
-| Requirements brainstorm | `docs/brainstorms/2026-06-22-dropclass-requirements.md` |
+| Requirements brainstorm | `notes/brainstorms/2026-06-22-dropclass-requirements.md` |
+| MVP plan | `notes/plans/2026-06-22-dropclass-mvp-plan.md` |
 
 ## Product shape
 
