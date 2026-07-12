@@ -1,30 +1,26 @@
 # dropclass
 
 <p align="center">
-  <a href="https://lumenhelix.com">
-    <img src="docs/assets/lumenhelix-logo.svg" alt="LumenHelix Solutions" width="180">
-  </a>
+  <img src="docs/assets/logo.svg" alt="dropclass logo" width="160">
 </p>
 
-<h3 align="center">Agent formation engine that turns a MOOC syllabus into a verified talent</h3>
+<h3 align="center">Syllabus to talent.</h3>
+
+<p align="center">Agent formation engine that turns a MOOC syllabus into a verified, transferable domain skill.</p>
 
 <p align="center">
-  <a href="https://lumenhelixsolutions.github.io/dropclass/">
-    <img src="https://img.shields.io/badge/Launch_Page-dropclass-00D4FF?style=flat-square&logo=githubpages&logoColor=white" alt="Launch Page">
-  </a>
-  <a href="https://lumenhelix.com">
-    <img src="https://img.shields.io/badge/Built_by-LumenHelix-7C3AED?style=flat-square" alt="Built by LumenHelix">
-  </a>
-  <img src="https://img.shields.io/badge/license-MIT-8A95A8?style=flat-square" alt="License">
+  <a href="https://lumenhelixsolutions.github.io/dropclass/">Launch Page</a>
+  <span> · </span>
+  <a href="https://github.com/lumenhelixsolutions/dropclass">GitHub</a>
+  <span> · </span>
+  <a href="https://lumenhelix.com">LumenHelix</a>
 </p>
 
 ---
 
-**dropclass** is part of the [LumenHelix Solutions](https://lumenhelix.com) portfolio — applied symbolic dynamics & reversible computation for deterministic, traceable AI systems.
-
 DropClass is the LumenHelix agent formation engine. It discovers free online courses, enrolls an agent in a real curriculum, runs competency checks, and exports a persistent domain talent that generalizes beyond the source material. Designed to mount inside the Atelier portfolio shell.
 
-## Why this exists
+## Why dropclass
 
 - **Learn from real syllabi.** Agents follow actual MOOC structures instead of invented curricula.
 - **Measure what matters.** Competency and transfer tests prove the agent can solve unseen problems.
@@ -32,16 +28,11 @@ DropClass is the LumenHelix agent formation engine. It discovers free online cou
 
 ## Quick start
 
-Install and run dropclass in under two minutes.
-
 ### macOS / Linux
 
 ```bash
-# Clone
 git clone https://github.com/lumenhelixsolutions/dropclass.git
 cd dropclass
-
-# Install & run
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e '.[dev]'
@@ -51,11 +42,8 @@ pytest
 ### Windows (PowerShell)
 
 ```powershell
-# Clone
 git clone https://github.com/lumenhelixsolutions/dropclass.git
 Set-Location dropclass
-
-# Install & run
 python -m venv .venv
 .venv\Scripts\activate
 pip install -e '.[dev]'
@@ -73,12 +61,7 @@ pip install -e '.[dev]'
 pytest
 ```
 
-> **Device note:** dropclass is tested on Windows 11, macOS Sonoma, Ubuntu 22.04/24.04, and modern mobile browsers.
-
-## Full documentation
-
-Visit the launch page for architecture, API reference, and deployment guides:  
-**https://lumenhelixsolutions.github.io/dropclass/**
+> Tested on Windows 11, macOS Sonoma, Ubuntu 22.04/24.04, and modern mobile browsers.
 
 ## Features
 
@@ -89,7 +72,7 @@ Visit the launch page for architecture, API reference, and deployment guides:
 | Competency + transfer tests | Verify domain ability with assessments and novel hold-out problems, not watch time. |
 | Mounts in Atelier | FastAPI routes drop into the Atelier shell so the UI can supervise every enrollment. |
 
-## Architecture at a glance
+## Architecture
 
 ```
 dropclass/
@@ -114,14 +97,6 @@ pytest
 - [ ] Coursera student loop with transcript + assignment ingestion
 - [ ] Talent export format and Atelier supervisor dashboard
 
-## Support & consulting
-
-Need deterministic AI systems with full traceability? LumenHelix builds reversible computation kernels, governance layers, and end-to-end AI integrations.
-
-- **Website:** https://lumenhelix.com
-- **Services:** AI diagnostics, B.Y.O. support packages, governance audits
-- **Research:** TEN² kernel, R.U.B.I.C. boundary discipline, C.O.R.E. constraint lens
-
 ## License
 
 Released under the MIT License.
@@ -129,5 +104,5 @@ Released under the MIT License.
 ---
 
 <p align="center">
-  <sub>Engineered by <a href="https://lumenhelix.com">LumenHelix Solutions</a> — Applied Symbolic Dynamics & Reversible Computation.</sub>
+  <sub>dropclass is a <a href="https://lumenhelix.com">LumenHelix</a> project — Applied Symbolic Dynamics & Reversible Computation.</sub>
 </p>
